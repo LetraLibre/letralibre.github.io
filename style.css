@@ -1,0 +1,108 @@
+:root{
+  scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #EC592E;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+.hero p {
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #EC592E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.cards .card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.cards .card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.cards .card p {
+    font-weight: 100;
+}
+
+.offer h2, .feedback h2 {
+    font-size: 2em;
+    margin-top: 40px;
+}
+
+.offer p, .feedback p {
+    font-weight: 100;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .cards .card h2 {
+        font-size: 1.25em;
+    }
+
+    .offer h2, .feedback h2 {
+        font-size: 1.75em;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.5em;
+    }
+
+    .cards .card h2 {
+        font-size: 1em;
+    }
+
+    .offer h2, .feedback h2 {
+        font-size: 1.5em;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
