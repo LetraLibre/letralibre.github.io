@@ -24,6 +24,7 @@ body {
   transition: all .4s ease-out;
   text-decoration: none;
   color: #1c1c1c;
+  margin: 1rem;
 }
 .btns:hover{
   background-color: darkorange;
