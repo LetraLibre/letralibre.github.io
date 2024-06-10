@@ -18,6 +18,9 @@ body {
   gap: 1.5rem;
   padding: 1rem 25rem;
 }
+.btn{
+  display: flex;
+}
 .btns{
   border: solid 1px #1c1c1c;
   padding: 1rem 2.5rem;
@@ -73,6 +76,9 @@ p{
   body {
     padding: 1rem;
     gap: 1.5rem;
+  }
+  .btn{
+  flex-direction: column;
   }
   h1{
     font-size: 2rem;
